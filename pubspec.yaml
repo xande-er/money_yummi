@@ -1,0 +1,54 @@
+name: money_yummi
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ui
+  google_fonts: any
+  cupertino_icons: ^1.0.2
+  smooth_page_indicator: ^0.2.3
+  flutter_neumorphic: ^3.1.0
+  flutter_svg: ^0.19.3
+
+
+
+#   control
+  pedantic: ^1.11.0
+  url_launcher: ^5.7.10
+  provider: ^5.0.0
+  hive: ^2.0.0
+  hive_flutter: ^1.0.0
+  hive_generator: ^1.0.0
+  path_provider: ^2.0.1
+  flutter_hooks: ^0.16.0
+  socket_io_client: ^0.9.12
+#
+
+#  socket_io: ^0.9.4
+#  flutter_socket_io: ^0.6.0
+
+
+dev_dependencies:
+  build_runner: any
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - picture/start/
+    - picture/components/
+    - picture/panel/bottom/
+    - picture/panel/top/
+    - picture/home/account/
+    - picture/home/friends/
+
